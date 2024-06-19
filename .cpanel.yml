@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/chaos153/public_html/hello-wordpress
+    - export DEPLOYPATH=/home/chaos153/public_html/xyz
     - /bin/cp -R * $DEPLOYPATH
