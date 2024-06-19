@@ -1,1 +1,1 @@
----deployment:  tasks:    - export DEPLOYPATH=/home/chaos153/public_html/wp-hello    - /bin/cp -R app $DEPLOYPATH        - /bin/cp -R conf $DEPLOYPATH    - /bin/cp -R logs $DEPLOYPATH
+---deployment:  tasks:    - export DEPLOYPATH=/home/chaos153/public_html/wp-hello    - /bin/cp -R app/public/ $DEPLOYPATH
